@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("img/photo-1499002238440-d264edd596ec.avif");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    letter-spacing: 2px;
+    color: white;
+}
+.timer{
+    color: white;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.hour{
+    opacity: 0.8;
+    background-color:rgb(119, 119, 206);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.min{
+    opacity: 0.8;
+    background-color:rgb(119, 119, 206);
+    padding: 10px 20px;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.sec{
+    opacity: 0.8;
+    background-color:rgb(119, 119, 206);
+    padding: 10px 20px;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.name-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.5rem;
+}
+.color{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin:10px 0px 0px 10px;
+    padding: 8px 22px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color:darkblue;
+}
+.col{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin:10px 0px 0px 14px;
+    padding: 8px 14px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color:darkblue;   
+}
+.co{
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin:10px 0px 0px 14px;
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color:darkblue;
+}
+.am{
+    opacity: 0.8;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px 0px 10px;
+    padding: 8px 15px 0px 15px;
+    background-color: darkblue;
+}
